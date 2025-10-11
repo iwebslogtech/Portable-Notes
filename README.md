@@ -27,7 +27,7 @@ A lightweight, portable markdown note-taking application built in Python with Tk
 
 1. **Clone the repository:**
     ```
-    git clone https://github.com/<your-username>/lightweight-notes.git
+    git clone https://github.com/iwebslogtech/Portable-Notes.git
     cd lightweight-notes
     ```
 
