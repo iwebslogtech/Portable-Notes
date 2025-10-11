@@ -1,9 +1,5 @@
 # Portable-Notes
-A lightweight, portable markdown note-taking application built in Python with Tkinter. Fast, simple, and 100% offline — all notes saved as plain text Markdown files. Easy to backup, move, and run on any modern Windows system.
-
-# Lightweight Notes
-
-Lightweight Notes is a minimalist, portable markdown note-taking app built with Python and Tkinter. It focuses on critical features like markdown editing, note linking, tags, search, and easy backup. No cloud required — your notes are always local and under your control.
+A lightweight, portable markdown note-taking application built in Python with Tkinter. Fast, simple, and 100% offline — all notes saved as plain text Markdown files. Easy to backup, move, and run on any modern Windows system. It is a minimalist, portable markdown note-taking app built with Python and Tkinter. It focuses on critical features like markdown editing, note linking, tags, search, and easy backup. No cloud required — your notes are always local and under your control.
 
 ## Features
 
