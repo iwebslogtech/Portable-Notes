@@ -1,6 +1,6 @@
 # Portable Notes Web
 
-A private, local-first Markdown knowledge base inspired by Obsidian, Notepad++, and OneNote. It runs in your browser on `localhost`, requires no cloud account, and stores everything in a local SQLite database.
+A private, local-first Markdown knowledge base inspired by Obsidian, Notepad++, and OneNote. It runs in your browser on `localhost`, requires no cloud account, and stores everything in a local SQLite database. Local-first markdown note taking and personal knowledge management system with wiki links, backlinks, folders, tags, search, favorites, autosave and offline storage.
 
 ## Highlights
 
