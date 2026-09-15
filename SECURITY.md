@@ -7,3 +7,17 @@ Please do not disclose a vulnerability publicly before a fix is available. Repor
 ## Scope
 
 Portable Notes Web binds to `127.0.0.1` by default. Do not change it to `0.0.0.0` without adding authentication, CSRF controls, stricter validation, TLS through a trusted reverse proxy, and a deployment security review. Keep Python updated and back up `data/notes.db`.
+
+## Privacy First
+
+Portable Notes does not transmit note content externally.
+
+By default the application:
+
+- Runs only on localhost
+- Stores data locally
+- Does not collect telemetry
+- Does not require accounts
+- Does not send analytics
+
+Users maintain complete ownership of their information.
