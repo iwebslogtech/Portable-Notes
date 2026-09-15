@@ -1,67 +1,66 @@
-# Portable-Notes
-A lightweight, portable markdown note-taking application built in Python with Tkinter. Fast, simple, and 100% offline — all notes saved as plain text Markdown files. Easy to backup, move, and run on any modern Windows system. It is a minimalist, portable markdown note-taking app built with Python and Tkinter. It focuses on critical features like markdown editing, note linking, tags, search, and easy backup. No cloud required — your notes are always local and under your control.
+# Portable Notes Web
 
-## Features
+A private, local-first Markdown knowledge base inspired by Obsidian, Notepad++, and OneNote. It runs in your browser on `localhost`, requires no cloud account, and stores everything in a local SQLite database.
 
-- **Markdown support** with live preview
-- **Folder organization** for notes
-- **Tags and full-text search**
-- **Note linking** (Obsidian-style `[[links]]`)
-- **Backlinks** panel
-- **To-do checkboxes**
-- **Light/dark themes**
-- **Quick note creation and templates**
-- **Distraction-free writing interface**
-- **100% offline, no cloud dependency**
-- **Easy backup:** just copy the `notes` folder
-- **Portable:** works from USB or cloud drive
+## Highlights
 
-## Getting Started
+- Markdown editor with live Reader and split view
+- Obsidian-style `[[wiki links]]`, outgoing links, and backlinks
+- Fast full-text search across titles, content, folders, and tags
+- Folders, tags, favorites, pinned notes, trash, and autosave
+- Light/dark themes and keyboard shortcuts
+- ZIP export containing Markdown files plus a JSON backup
+- Responsive interface and 100% local storage
+- No third-party Python packages required
 
-### Prerequisites
+## Run
 
-- Python 3.8 or later (Tkinter included)
-- Windows 11+
+```bash
+git clone https://github.com/YOUR-USERNAME/portable-notes-web.git
+cd portable-notes-web
+python app.py
+```
 
-### Install and Run
+The app opens at <http://127.0.0.1:8765>. Press `Ctrl+C` in the terminal to stop it.
 
-1. **Clone the repository:**
-    ```
-    git clone https://github.com/iwebslogtech/Portable-Notes.git
-    cd lightweight-notes
-    ```
+### Windows shortcut
 
-2. **Run the app:**
-    ```
-    python mynotes.py
-    ```
+Double-click `start.bat`.
 
-3. **Build standalone executable (optional):**
-    ```
-    python -m pip install pyinstaller
-    python -m PyInstaller --onefile --windowed --name="MyNotes" mynotes.py
-    ```
-    Find `MyNotes.exe` in the `dist` folder.
+## Keyboard shortcuts
 
-### Usage
+- `Ctrl+N`: New note
+- `Ctrl+S`: Save now
+- `Ctrl+K`: Focus search
+- `Ctrl+Shift+P`: Cycle editor, split, and reader modes
 
-- All notes are stored in the `notes/` directory as `.md` files.
-- Use the app to create, edit, search, and organize your notes.
-- To back up, simply copy the `notes/` folder anywhere.
-- To move your notes, just transfer the folder and run the app.
+## Data and privacy
+
+Notes are stored in `data/notes.db`. The server binds only to `127.0.0.1`, so it is not exposed to other devices. Use Export regularly for portable Markdown backups. Do not commit the `data/` directory.
+
+## Project structure
+
+```text
+portable-notes-web/
+├── app.py
+├── static/
+│   ├── index.html
+│   ├── style.css
+│   └── app.js
+├── data/
+├── start.bat
+├── start.sh
+├── LICENSE
+├── CONTRIBUTING.md
+├── SECURITY.md
+├── CHANGELOG.md
+└── .github/
+```
+
+## Roadmap
+
+See [ROADMAP.md](ROADMAP.md). Suggested next milestones include note attachments, nested folders, database encryption, graph view, and optional sync adapters.
 
 ## License
 
-Distributed under the MIT License. See `LICENSE` for details.
-
-
-## Contributing
-
-Pull requests and feature suggestions are welcome. Please open an issue to discuss changes or improvements.
-
-## Inspiration
-
-Inspired by Obsidian, OneNote, and other leading note-taking applications, but keeping only the core features for speed and simplicity.
-
----
-
+MIT. See [LICENSE](LICENSE).
