@@ -16,7 +16,7 @@ A private, local-first Markdown knowledge base inspired by Obsidian, Notepad++, 
 ## Run
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/portable-notes-web.git
+git clone https://github.com/iwebslogtech/Portable-Notes.git
 cd portable-notes-web
 python app.py
 ```
