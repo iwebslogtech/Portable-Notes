@@ -1,20 +1,34 @@
-# Roadmap
+# Portable Notes Roadmap
 
-## 2.1
-- Import Markdown files and backup JSON
-- Note templates and daily notes
-- Nested folder browser and drag-and-drop organization
-- Find and replace inside the editor
+## Version 2.2
 
-## 2.2
-- Attachments and pasted images
-- Command palette
-- Note history and restore points
-- Optional graph visualization
+- Markdown file vault support
+- Import existing Obsidian vaults
+- Drag and drop attachments
+- Image pasting
+- Global search panel
+- Find & replace
 
-## 3.0
-- Optional end-to-end encrypted sync provider interface
-- Multi-vault support
-- Plugin API with explicit permissions
+## Version 2.5
 
-The core product will remain offline-first, portable, and readable without proprietary formats.
+- Graph visualization
+- Daily notes
+- Templates
+- Kanban boards
+- Table editor
+- Calendar integration
+
+## Version 3.0
+
+- AI knowledge assistant
+- Semantic search
+- Local LLM integration
+- Ollama support
+- OpenAI support
+- Anthropic support
+- Google Gemini support
+
+## Long Term
+
+Become the best open-source local-first note-taking tool for power users.
+`
