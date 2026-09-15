@@ -2,6 +2,18 @@
 
 A private, local-first Markdown knowledge base inspired by Obsidian, Notepad++, and OneNote. It runs in your browser on `localhost`, requires no cloud account, and stores everything in a local SQLite database. Local-first markdown note taking and personal knowledge management system with wiki links, backlinks, folders, tags, search, favorites, autosave and offline storage.
 
+## About Portable Notes
+
+Portable Notes is a lightweight Personal Knowledge Management (PKM) platform.
+Built for people who want the power of Obsidian, OneNote and Notepad++ without vendor lock-in.
+Your notes remain on your computer as local data.
+- No cloud account.
+- No subscriptions.
+- No telemetry.
+- No tracking.
+
+Create notes, organize knowledge, link ideas, track projects and build your second brain entirely offline.
+
 ## Highlights
 
 - Markdown editor with live Reader and split view
